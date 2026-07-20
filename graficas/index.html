@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><title>Resultados - Sorting Benchmark</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', Arial, sans-serif; background: #f0f2f5; color: #1a1a2e; line-height: 1.6; }
+.header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+          color: white; padding: 30px 0; text-align: center; margin-bottom: 30px; }
+.header h1 { font-size: 28px; margin-bottom: 6px; letter-spacing: 0.5px; }
+.header p { font-size: 14px; opacity: 0.8; }
+.container { max-width: 1300px; margin: auto; padding: 0 20px; }
+.card { background: white; border-radius: 12px; padding: 24px; margin-bottom: 24px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.08); border: 1px solid #e8eaed; }
+.card h2 { font-size: 20px; color: #1a1a2e; margin-bottom: 16px; padding-bottom: 8px;
+           border-bottom: 3px solid #0f3460; }
+.stats { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 20px; }
+.stat { flex: 1; min-width: 140px; background: #f8f9fa; border-radius: 8px; padding: 14px 18px; text-align: center; }
+.stat .num { font-size: 24px; font-weight: bold; color: #0f3460; }
+.stat .lbl { font-size: 12px; color: #6c757d; text-transform: uppercase; letter-spacing: 0.5px; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #e8eaed; }
+th { background: #0f3460; color: white; font-weight: 600; font-size: 12px;
+     text-transform: uppercase; letter-spacing: 0.5px; }
+tr:nth-child(even) { background: #f8f9fa; }
+tr:hover { background: #e8f0fe; }
+.gallery { display: flex; flex-wrap: wrap; gap: 24px; justify-content: center; }
+.gallery-item { flex: 1 1 45%; min-width: 420px; background: #f8f9fa; border-radius: 8px;
+                padding: 12px; border: 1px solid #e8eaed; }
+.gallery-item h3 { font-size: 14px; color: #1a1a2e; margin-bottom: 8px;
+                   padding-left: 4px; }
+.gallery-item img { width: 100%; height: auto; border-radius: 4px;
+                    background: white; display: block; }
+.legend { font-size: 11px; color: #6c757d; text-align: right; margin-top: 4px; }
+</style></head>
+<body>
+<div class="header">
+  <h1>Benchmark de Algoritmos de Ordenamiento</h1>
+  <p>Resultados generados a partir de Google Benchmark &bull; 30 repeticiones por configuraci&oacute;n</p>
+</div>
+<div class="container">
+<div class="card">
+  <h2>Resumen</h2>
+  <div class="stats">
+    <div class="stat"><div class="num">1979</div><div class="lbl">Ejecuciones</div></div>
+    <div class="stat"><div class="num">5</div><div class="lbl">Algoritmos</div></div>
+    <div class="stat"><div class="num">5</div><div class="lbl">Tama&ntilde;os (n)</div></div>
+    <div class="stat"><div class="num">4</div><div class="lbl">Distribuciones</div></div>
+  </div>
+  <h3>Tiempo de CPU promedio (ms) por Algoritmo y Tama&ntilde;o</h3>
+  <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>Media (ms)</th>
+      <th>Desv. Estándar (ms)</th>
+    </tr>
+    <tr>
+      <th>algorithm</th>
+      <th>n</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="3" valign="top">BubbleSort</th>
+      <th>1000</th>
+      <td>4.73</td>
+      <td>1.88</td>
+    </tr>
+    <tr>
+      <th>5000</th>
+      <td>114.16</td>
+      <td>45.82</td>
+    </tr>
+    <tr>
+      <th>10000</th>
+      <td>456.58</td>
+      <td>182.79</td>
+    </tr>
+    <tr>
+      <th rowspan="4" valign="top">HeapSort</th>
+      <th>1000</th>
+      <td>0.23</td>
+      <td>0.01</td>
+    </tr>
+    <tr>
+      <th>10000</th>
+      <td>3.05</td>
+      <td>0.14</td>
+    </tr>
+    <tr>
+      <th>100000</th>
+      <td>39.10</td>
+      <td>1.83</td>
+    </tr>
+    <tr>
+      <th>1000000</th>
+      <td>499.75</td>
+      <td>34.39</td>
+    </tr>
+    <tr>
+      <th rowspan="3" valign="top">InsertionSort</th>
+      <th>1000</th>
+      <td>2.14</td>
+      <td>2.03</td>
+    </tr>
+    <tr>
+      <th>5000</th>
+      <td>52.71</td>
+      <td>50.53</td>
+    </tr>
+    <tr>
+      <th>10000</th>
+      <td>209.73</td>
+      <td>200.89</td>
+    </tr>
+    <tr>
+      <th rowspan="4" valign="top">MergeSort</th>
+      <th>1000</th>
+      <td>0.26</td>
+      <td>0.03</td>
+    </tr>
+    <tr>
+      <th>10000</th>
+      <td>3.21</td>
+      <td>0.38</td>
+    </tr>
+    <tr>
+      <th>100000</th>
+      <td>37.48</td>
+      <td>4.47</td>
+    </tr>
+    <tr>
+      <th>1000000</th>
+      <td>434.03</td>
+      <td>54.04</td>
+    </tr>
+    <tr>
+      <th rowspan="3" valign="top">QuickSort</th>
+      <th>1000</th>
+      <td>2.26</td>
+      <td>2.23</td>
+    </tr>
+    <tr>
+      <th>10000</th>
+      <td>216.50</td>
+      <td>226.33</td>
+    </tr>
+    <tr>
+      <th>100000</th>
+      <td>26800.55</td>
+      <td>27015.45</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="card">
+  <h2>Visualizaciones</h2>
+  <div class="gallery">
+<div class="gallery-item"><h3>Tiempo de CPU — Todos los algoritmos</h3><img src="tiempo_todos.png" alt="Tiempo de CPU — Todos los algoritmos"></div>
+<div class="gallery-item"><h3>Bubble Sort — Tiempo CPU</h3><img src="tiempo_BubbleSort.png" alt="Bubble Sort — Tiempo CPU"></div>
+<div class="gallery-item"><h3>Insertion Sort — Tiempo CPU</h3><img src="tiempo_InsertionSort.png" alt="Insertion Sort — Tiempo CPU"></div>
+<div class="gallery-item"><h3>Merge Sort — Tiempo CPU</h3><img src="tiempo_MergeSort.png" alt="Merge Sort — Tiempo CPU"></div>
+<div class="gallery-item"><h3>Quick Sort — Tiempo CPU</h3><img src="tiempo_QuickSort.png" alt="Quick Sort — Tiempo CPU"></div>
+<div class="gallery-item"><h3>Heap Sort — Tiempo CPU</h3><img src="tiempo_HeapSort.png" alt="Heap Sort — Tiempo CPU"></div>
+<div class="gallery-item"><h3>Comparaciones vs Tamaño</h3><img src="comparaciones_vs_n.png" alt="Comparaciones vs Tamaño"></div>
+<div class="gallery-item"><h3>Intercambios vs Tamaño</h3><img src="intercambios_vs_n.png" alt="Intercambios vs Tamaño"></div>
+<div class="gallery-item"><h3>Comparaciones por Distribución</h3><img src="comparaciones_por_distribucion.png" alt="Comparaciones por Distribución"></div>
+<div class="gallery-item"><h3>Intercambios por Distribución</h3><img src="intercambios_por_distribucion.png" alt="Intercambios por Distribución"></div>
+<div class="gallery-item"><h3>RAM Auxiliar por Algoritmo</h3><img src="ram_auxiliar.png" alt="RAM Auxiliar por Algoritmo"></div>
+<div class="gallery-item"><h3>Comparativa n = 1,000</h3><img src="comparativa_n1000.png" alt="Comparativa n = 1,000"></div>
+<div class="gallery-item"><h3>Comparativa n = 5,000</h3><img src="comparativa_n5000.png" alt="Comparativa n = 5,000"></div>
+<div class="gallery-item"><h3>Comparativa n = 10,000</h3><img src="comparativa_n10000.png" alt="Comparativa n = 10,000"></div>
+<div class="gallery-item"><h3>Comparativa n = 100,000</h3><img src="comparativa_n100000.png" alt="Comparativa n = 100,000"></div>
+<div class="gallery-item"><h3>Comparativa n = 1,000,000</h3><img src="comparativa_n1000000.png" alt="Comparativa n = 1,000,000"></div>
+</div></div>
+<div class="card">
+  <h2>Notas</h2>
+  <ul style="padding-left: 20px; font-size: 13px; color: #495057;">
+    <li>Las mediciones se realizaron con Google Benchmark compilado en modo <strong>DEBUG</strong> — los tiempos absolutos son más altos que en una build optimizada.</li>
+    <li>Merge Sort es el único algoritmo con RAM auxiliar no nula: <em>(n × sizeof(int)) / 1024</em> KB.</li>
+    <li>Quick Sort usa mediana-de-3 para la selección del pivote.</li>
+    <li>Distribuciones: <strong>Aleatorio</strong> (shuffle), <strong>Ordenado</strong> (ascendente),
+       <strong>Inverso</strong> (descendente), <strong>Parcial</strong> (~90% ordenado).</li>
+  </ul>
+</div>
+</div>
+</body>
+</html>

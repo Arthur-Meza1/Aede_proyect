@@ -311,11 +311,153 @@ CMakeFiles/ejecutable_experimentos.dir/contadores.cpp.o: /home/arthur/Documentos
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h
 
+CMakeFiles/ejecutable_experimentos.dir/heap_sort.cpp.o: /home/arthur/Documentos/aede_proyect/proyecto_sorting/heap_sort.cpp \
+  /home/arthur/Documentos/aede_proyect/proyecto_sorting/contadores.h \
+  /home/arthur/Documentos/aede_proyect/proyecto_sorting/heap_sort.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/16/backward/binders.h \
+  /usr/include/c++/16/bit \
+  /usr/include/c++/16/bits/alloc_traits.h \
+  /usr/include/c++/16/bits/allocator.h \
+  /usr/include/c++/16/bits/concept_check.h \
+  /usr/include/c++/16/bits/cpp_type_traits.h \
+  /usr/include/c++/16/bits/erase_if.h \
+  /usr/include/c++/16/bits/exception.h \
+  /usr/include/c++/16/bits/exception_defines.h \
+  /usr/include/c++/16/bits/functional_hash.h \
+  /usr/include/c++/16/bits/hash_bytes.h \
+  /usr/include/c++/16/bits/invoke.h \
+  /usr/include/c++/16/bits/memory_resource.h \
+  /usr/include/c++/16/bits/memoryfwd.h \
+  /usr/include/c++/16/bits/move.h \
+  /usr/include/c++/16/bits/new_allocator.h \
+  /usr/include/c++/16/bits/new_except.h \
+  /usr/include/c++/16/bits/new_throw.h \
+  /usr/include/c++/16/bits/predefined_ops.h \
+  /usr/include/c++/16/bits/ptr_traits.h \
+  /usr/include/c++/16/bits/range_access.h \
+  /usr/include/c++/16/bits/requires_hosted.h \
+  /usr/include/c++/16/bits/stdexcept_throw.h \
+  /usr/include/c++/16/bits/stdexcept_throwfwd.h \
+  /usr/include/c++/16/bits/stl_algobase.h \
+  /usr/include/c++/16/bits/stl_bvector.h \
+  /usr/include/c++/16/bits/stl_construct.h \
+  /usr/include/c++/16/bits/stl_function.h \
+  /usr/include/c++/16/bits/stl_iterator.h \
+  /usr/include/c++/16/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/16/bits/stl_iterator_base_types.h \
+  /usr/include/c++/16/bits/stl_pair.h \
+  /usr/include/c++/16/bits/stl_uninitialized.h \
+  /usr/include/c++/16/bits/stl_vector.h \
+  /usr/include/c++/16/bits/uses_allocator.h \
+  /usr/include/c++/16/bits/uses_allocator_args.h \
+  /usr/include/c++/16/bits/utility.h \
+  /usr/include/c++/16/bits/vector.tcc \
+  /usr/include/c++/16/bits/version.h \
+  /usr/include/c++/16/concepts \
+  /usr/include/c++/16/cstddef \
+  /usr/include/c++/16/debug/assertions.h \
+  /usr/include/c++/16/debug/debug.h \
+  /usr/include/c++/16/ext/alloc_traits.h \
+  /usr/include/c++/16/ext/numeric_traits.h \
+  /usr/include/c++/16/ext/type_traits.h \
+  /usr/include/c++/16/initializer_list \
+  /usr/include/c++/16/new \
+  /usr/include/c++/16/pstl/pstl_config.h \
+  /usr/include/c++/16/tuple \
+  /usr/include/c++/16/type_traits \
+  /usr/include/c++/16/vector \
+  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h
+
+CMakeFiles/ejecutable_experimentos.dir/insertion_sort.cpp.o: /home/arthur/Documentos/aede_proyect/proyecto_sorting/insertion_sort.cpp \
+  /home/arthur/Documentos/aede_proyect/proyecto_sorting/contadores.h \
+  /home/arthur/Documentos/aede_proyect/proyecto_sorting/insertion_sort.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/16/backward/binders.h \
+  /usr/include/c++/16/bit \
+  /usr/include/c++/16/bits/alloc_traits.h \
+  /usr/include/c++/16/bits/allocator.h \
+  /usr/include/c++/16/bits/concept_check.h \
+  /usr/include/c++/16/bits/cpp_type_traits.h \
+  /usr/include/c++/16/bits/erase_if.h \
+  /usr/include/c++/16/bits/exception.h \
+  /usr/include/c++/16/bits/exception_defines.h \
+  /usr/include/c++/16/bits/functional_hash.h \
+  /usr/include/c++/16/bits/hash_bytes.h \
+  /usr/include/c++/16/bits/invoke.h \
+  /usr/include/c++/16/bits/memory_resource.h \
+  /usr/include/c++/16/bits/memoryfwd.h \
+  /usr/include/c++/16/bits/move.h \
+  /usr/include/c++/16/bits/new_allocator.h \
+  /usr/include/c++/16/bits/new_except.h \
+  /usr/include/c++/16/bits/new_throw.h \
+  /usr/include/c++/16/bits/predefined_ops.h \
+  /usr/include/c++/16/bits/ptr_traits.h \
+  /usr/include/c++/16/bits/range_access.h \
+  /usr/include/c++/16/bits/requires_hosted.h \
+  /usr/include/c++/16/bits/stdexcept_throw.h \
+  /usr/include/c++/16/bits/stdexcept_throwfwd.h \
+  /usr/include/c++/16/bits/stl_algobase.h \
+  /usr/include/c++/16/bits/stl_bvector.h \
+  /usr/include/c++/16/bits/stl_construct.h \
+  /usr/include/c++/16/bits/stl_function.h \
+  /usr/include/c++/16/bits/stl_iterator.h \
+  /usr/include/c++/16/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/16/bits/stl_iterator_base_types.h \
+  /usr/include/c++/16/bits/stl_pair.h \
+  /usr/include/c++/16/bits/stl_uninitialized.h \
+  /usr/include/c++/16/bits/stl_vector.h \
+  /usr/include/c++/16/bits/uses_allocator.h \
+  /usr/include/c++/16/bits/uses_allocator_args.h \
+  /usr/include/c++/16/bits/utility.h \
+  /usr/include/c++/16/bits/vector.tcc \
+  /usr/include/c++/16/bits/version.h \
+  /usr/include/c++/16/concepts \
+  /usr/include/c++/16/cstddef \
+  /usr/include/c++/16/debug/assertions.h \
+  /usr/include/c++/16/debug/debug.h \
+  /usr/include/c++/16/ext/alloc_traits.h \
+  /usr/include/c++/16/ext/numeric_traits.h \
+  /usr/include/c++/16/ext/type_traits.h \
+  /usr/include/c++/16/initializer_list \
+  /usr/include/c++/16/new \
+  /usr/include/c++/16/pstl/pstl_config.h \
+  /usr/include/c++/16/tuple \
+  /usr/include/c++/16/type_traits \
+  /usr/include/c++/16/vector \
+  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h
+
 CMakeFiles/ejecutable_experimentos.dir/main.cpp.o: /home/arthur/Documentos/aede_proyect/proyecto_sorting/main.cpp \
   /home/arthur/Documentos/aede_proyect/proyecto_sorting/bubble_sort.h \
   _deps/googlebenchmark-src/include/benchmark/benchmark.h \
   _deps/googlebenchmark-src/include/benchmark/export.h \
   /home/arthur/Documentos/aede_proyect/proyecto_sorting/contadores.h \
+  /home/arthur/Documentos/aede_proyect/proyecto_sorting/heap_sort.h \
+  /home/arthur/Documentos/aede_proyect/proyecto_sorting/insertion_sort.h \
   /home/arthur/Documentos/aede_proyect/proyecto_sorting/merge_sort.h \
   /home/arthur/Documentos/aede_proyect/proyecto_sorting/quick_sort.h \
   /usr/include/alloca.h \
@@ -658,6 +800,8 @@ ejecutable_experimentos: /usr/lib/Scrt1.o \
   /usr/lib/libmvec.so.1 \
   CMakeFiles/ejecutable_experimentos.dir/bubble_sort.cpp.o \
   CMakeFiles/ejecutable_experimentos.dir/contadores.cpp.o \
+  CMakeFiles/ejecutable_experimentos.dir/heap_sort.cpp.o \
+  CMakeFiles/ejecutable_experimentos.dir/insertion_sort.cpp.o \
   CMakeFiles/ejecutable_experimentos.dir/main.cpp.o \
   CMakeFiles/ejecutable_experimentos.dir/merge_sort.cpp.o \
   CMakeFiles/ejecutable_experimentos.dir/quick_sort.cpp.o \
@@ -669,6 +813,10 @@ _deps/googlebenchmark-build/src/libbenchmark.a:
 CMakeFiles/ejecutable_experimentos.dir/quick_sort.cpp.o:
 
 CMakeFiles/ejecutable_experimentos.dir/merge_sort.cpp.o:
+
+CMakeFiles/ejecutable_experimentos.dir/insertion_sort.cpp.o:
+
+CMakeFiles/ejecutable_experimentos.dir/heap_sort.cpp.o:
 
 CMakeFiles/ejecutable_experimentos.dir/bubble_sort.cpp.o:
 
@@ -704,13 +852,17 @@ CMakeFiles/ejecutable_experimentos.dir/main.cpp.o:
 
 /usr/include/c++/16/cassert:
 
+/usr/include/c++/16/bits/stl_tree.h:
+
+/usr/include/c++/16/bits/stl_relops.h:
+
+/usr/include/c++/16/bits/stl_multiset.h:
+
 /usr/include/bits/types.h:
 
 /usr/include/bits/timex.h:
 
 /usr/include/c++/16/cerrno:
-
-/usr/include/c++/16/bits/stl_tree.h:
 
 /usr/include/bits/stdlib-float.h:
 
@@ -727,8 +879,6 @@ CMakeFiles/ejecutable_experimentos.dir/main.cpp.o:
 /usr/include/bits/pthreadtypes.h:
 
 /usr/include/bits/mathcalls-narrow.h:
-
-/usr/include/c++/16/bits/stl_relops.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.so:
 
@@ -792,8 +942,6 @@ _deps/googlebenchmark-src/include/benchmark/benchmark.h:
 
 /usr/include/asm-generic/errno-base.h:
 
-/usr/include/c++/16/bits/stl_multiset.h:
-
 /usr/include/alloca.h:
 
 /home/arthur/Documentos/aede_proyect/proyecto_sorting/contadores.cpp:
@@ -819,6 +967,10 @@ _deps/googlebenchmark-src/include/benchmark/benchmark.h:
 /usr/include/c++/16/bits/memory_resource.h:
 
 /usr/include/bits/types/sigset_t.h:
+
+/usr/include/c++/16/bits/stl_set.h:
+
+/usr/include/features-time64.h:
 
 /usr/include/c++/16/pstl/glue_numeric_defs.h:
 
@@ -900,8 +1052,6 @@ _deps/googlebenchmark-src/include/benchmark/benchmark.h:
 
 /usr/include/c++/16/bits/stl_vector.h:
 
-/usr/include/locale.h:
-
 /usr/include/bits/pthread_stack_min-dynamic.h:
 
 /usr/include/c++/16/bits/stl_iterator_base_types.h:
@@ -938,9 +1088,7 @@ _deps/googlebenchmark-src/include/benchmark/benchmark.h:
 
 /usr/include/sys/cdefs.h:
 
-/usr/include/bits/thread-shared-types.h:
-
-/usr/include/c++/16/ext/type_traits.h:
+/home/arthur/Documentos/aede_proyect/proyecto_sorting/heap_sort.cpp:
 
 /usr/include/c++/16/bits/stl_function.h:
 
@@ -1100,8 +1248,6 @@ _deps/googlebenchmark-src/include/benchmark/benchmark.h:
 
 /usr/include/c++/16/bits/stl_algo.h:
 
-/usr/include/c++/16/bits/stl_heap.h:
-
 /usr/include/assert.h:
 
 /usr/include/c++/16/bits/stringfwd.h:
@@ -1127,6 +1273,10 @@ _deps/googlebenchmark-src/include/benchmark/benchmark.h:
 /usr/include/c++/16/ext/string_conversions.h:
 
 /usr/include/c++/16/tr1/ell_integral.tcc:
+
+/usr/include/locale.h:
+
+/home/arthur/Documentos/aede_proyect/proyecto_sorting/insertion_sort.h:
 
 /usr/include/bits/types/__sigset_t.h:
 
@@ -1186,6 +1336,12 @@ _deps/googlebenchmark-src/include/benchmark/benchmark.h:
 
 /usr/include/c++/16/typeinfo:
 
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/c++/16/ext/type_traits.h:
+
+/home/arthur/Documentos/aede_proyect/proyecto_sorting/insertion_sort.cpp:
+
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/atomic_word.h:
 
 /usr/include/errno.h:
@@ -1220,6 +1376,10 @@ _deps/googlebenchmark-src/include/benchmark/benchmark.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h:
 
+/usr/include/c++/16/bits/stl_heap.h:
+
+/home/arthur/Documentos/aede_proyect/proyecto_sorting/heap_sort.h:
+
 /home/arthur/Documentos/aede_proyect/proyecto_sorting/main.cpp:
 
 /usr/include/asm/posix_types_64.h:
@@ -1237,7 +1397,3 @@ CMakeFiles/ejecutable_experimentos.dir/contadores.cpp.o:
 /usr/include/c++/16/bits/node_handle.h:
 
 /usr/include/c++/16/bits/stl_multimap.h:
-
-/usr/include/features-time64.h:
-
-/usr/include/c++/16/bits/stl_set.h:

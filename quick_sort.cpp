@@ -1,8 +1,32 @@
 #include "quick_sort.h"
 #include "contadores.h"
 
+static int medianaDeTres(std::vector<int>& arr, int bajo, int alto) {
+    int medio = bajo + (alto - bajo) / 2;
+
+    ++g_contadores.comparaciones;
+    if (arr[bajo] > arr[medio]) {
+        ++g_contadores.intercambios;
+        std::swap(arr[bajo], arr[medio]);
+    }
+    ++g_contadores.comparaciones;
+    if (arr[bajo] > arr[alto]) {
+        ++g_contadores.intercambios;
+        std::swap(arr[bajo], arr[alto]);
+    }
+    ++g_contadores.comparaciones;
+    if (arr[medio] > arr[alto]) {
+        ++g_contadores.intercambios;
+        std::swap(arr[medio], arr[alto]);
+    }
+
+    ++g_contadores.intercambios;
+    std::swap(arr[medio], arr[alto]);
+    return arr[alto];
+}
+
 static int particion(std::vector<int>& arr, int bajo, int alto) {
-    int pivote = arr[alto];
+    int pivote = medianaDeTres(arr, bajo, alto);
     int i = bajo - 1;
 
     for (int j = bajo; j < alto; ++j) {
