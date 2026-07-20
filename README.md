@@ -4,6 +4,57 @@ Evaluacion estadistica del rendimiento de 5 algoritmos de ordenamiento clasicos
 usando el framework Google Benchmark. Disenado para generar datos exportables
 para Analisis Exploratorio de Datos (EDA) con Python (Pandas/Seaborn).
 
+## Pipeline del Sistema
+
+```
+  +------------------+       +------------------+       +------------------------+
+  |  CONFIGURACION   |       |  GENERACION      |       |  EJECUCION             |
+  |  - Algoritmo     | ----> |  - mt19937       | ----> |  - state.PauseTiming() |
+  |  - Tamano n      |       |  - shuffle       |       |  - bubbleSort(...)     |
+  |  - Distribucion  |       |  - reverse       |       |  - insertionSort(...)  |
+  +------------------+       |  - swap parcial  |       |  - quickSort(...)      |
+                             +------------------+       |  - mergeSort(...)      |
+                                                        |  - heapSort(...)       |
+                                                        |  - state.ResumeTiming()|
+                                                        +----------+-------------+
+                                                                   |
+                                                                   v
+  +------------------+       +------------------+       +------------------------+
+  |  EXPORTACION     |       |  GOOGLE          |       |  INSTRUMENTACION       |
+  |  - JSON          | <---- |  BENCHMARK       | <---- |  - g_contadores        |
+  |  - CSV           |       |  - 30 repeticones|       |    .comparaciones++    |
+  +------------------+       |  - media, stddev |       |    .intercambios++     |
+           |                 |  - cv, mediana   |       |  - DoNotOptimize()     |
+           v                 +------------------+       |  - state.counters[]    |
+  +------------------+                                  +------------------------+
+  |  ANALISIS (EDA)  |
+  |  - Pandas        |
+  |  - Seaborn       |
+  |  - Boxplots      |
+  |  - Scatterplots  |
+  +------------------+
+```
+
+### Flujo detallado
+
+1. **Configuracion** — `main.cpp` define combinaciones de algoritmo, tamano `n` y
+   distribucion mediante `BENCHMARK(...)->Apply(...)->Repetitions(30)`.
+2. **Generacion** — `contadores.cpp::generarDatos()` produce un `std::vector<int>`
+   segun la distribucion solicitada usando `std::mt19937`.
+3. **Ejecucion** — Google Benchmark llama al algoritmo dentro de un bucle
+   `for (auto _ : state)`. La generacion de datos ocurre dentro de
+   `state.PauseTiming()` para no contaminar la medicion temporal.
+4. **Instrumentacion** — Cada algoritmo incrementa `g_contadores.comparaciones`
+   e `g_contadores.intercambios` en tiempo real. Al terminar, se escriben en
+   `state.counters[]` junto con la RAM auxiliar teorica.
+5. **Benchmark** — Google Benchmark ejecuta 30 repeticiones por configuracion y
+   calcula automaticamente media, mediana, desviacion estandar y coeficiente de
+   variacion de todas las metricas.
+6. **Exportacion** — Los resultados se vuelcan a JSON o CSV con los flags nativos
+   `--benchmark_out` y `--benchmark_out_format`.
+7. **Analisis** — Los archivos exportados se cargan en Python con Pandas para
+   generar visualizaciones (boxplots, scatterplots, histogramas) con Seaborn.
+
 ## Algoritmos Evaluados
 
 | Algoritmo      | Complejidad    | Clasificacion     |
