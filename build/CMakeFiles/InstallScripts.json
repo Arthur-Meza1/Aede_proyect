@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/cmake_install.cmake",
+		"/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-build/cmake_install.cmake",
+		"/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

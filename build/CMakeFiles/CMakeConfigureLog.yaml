@@ -1,0 +1,2007 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/tmp/cmake_env/bin/"
+      - "/home/arthur/.opencode/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/bin/"
+    searched_directories:
+      - "/tmp/cmake_env/bin/uname"
+      - "/home/arthur/.opencode/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/cmake_env/bin"
+        - "/home/arthur/.opencode/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 7.1.3-2-cachyos - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/tmp/cmake_env/bin/"
+      - "/home/arthur/.opencode/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/tmp/cmake_env/bin/gmake"
+      - "/home/arthur/.opencode/bin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/usr/bin/site_perl/gmake"
+      - "/usr/bin/vendor_perl/gmake"
+      - "/usr/bin/core_perl/gmake"
+      - "/tmp/cmake_env/bin/make"
+      - "/home/arthur/.opencode/bin/make"
+      - "/usr/local/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/cmake_env/bin"
+        - "/home/arthur/.opencode/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/tmp/cmake_env/bin/"
+      - "/home/arthur/.opencode/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/tmp/cmake_env/bin/c++"
+      - "/home/arthur/.opencode/bin/c++"
+      - "/usr/local/bin/c++"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/cmake_env/bin"
+        - "/home/arthur/.opencode/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/cmake_env/bin"
+        - "/home/arthur/.opencode/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/4.4.0/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/cmake_env/bin/"
+      - "/home/arthur/.opencode/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/cmake_env/bin"
+        - "/home/arthur/.opencode/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/cmake_env/bin/"
+      - "/home/arthur/.opencode/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/cmake_env/bin"
+        - "/home/arthur/.opencode/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/cmake_env/bin/"
+      - "/home/arthur/.opencode/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/cmake_env/bin"
+        - "/home/arthur/.opencode/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/cmake_env/bin/"
+      - "/home/arthur/.opencode/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/cmake_env/bin"
+        - "/home/arthur/.opencode/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/cmake_env/bin/"
+      - "/home/arthur/.opencode/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/cmake_env/bin"
+        - "/home/arthur/.opencode/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/cmake_env/bin/"
+      - "/home/arthur/.opencode/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/cmake_env/bin"
+        - "/home/arthur/.opencode/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/cmake_env/bin/"
+      - "/home/arthur/.opencode/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/cmake_env/bin"
+        - "/home/arthur/.opencode/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/cmake_env/bin/"
+      - "/home/arthur/.opencode/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/cmake_env/bin"
+        - "/home/arthur/.opencode/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/cmake_env/bin/"
+      - "/home/arthur/.opencode/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/tmp/cmake_env/bin/dlltool"
+      - "/home/arthur/.opencode/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/bin/site_perl/dlltool"
+      - "/usr/bin/vendor_perl/dlltool"
+      - "/usr/bin/core_perl/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/tmp/cmake_env/bin"
+        - "/home/arthur/.opencode/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/cmake_env/bin/"
+      - "/home/arthur/.opencode/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/cmake_env/bin"
+        - "/home/arthur/.opencode/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/cmake_env/bin/"
+      - "/home/arthur/.opencode/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/tmp/cmake_env/bin/tapi"
+      - "/home/arthur/.opencode/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/bin/site_perl/tapi"
+      - "/usr/bin/vendor_perl/tapi"
+      - "/usr/bin/core_perl/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/tmp/cmake_env/bin"
+        - "/home/arthur/.opencode/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-16.1"
+      - "gcc-ar-16"
+      - "gcc-ar16"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/cmake_env/bin/"
+      - "/home/arthur/.opencode/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-16.1"
+      - "/tmp/cmake_env/bin/gcc-ar-16.1"
+      - "/home/arthur/.opencode/bin/gcc-ar-16.1"
+      - "/usr/local/bin/gcc-ar-16.1"
+      - "/usr/bin/site_perl/gcc-ar-16.1"
+      - "/usr/bin/vendor_perl/gcc-ar-16.1"
+      - "/usr/bin/core_perl/gcc-ar-16.1"
+      - "/usr/bin/gcc-ar-16"
+      - "/tmp/cmake_env/bin/gcc-ar-16"
+      - "/home/arthur/.opencode/bin/gcc-ar-16"
+      - "/usr/local/bin/gcc-ar-16"
+      - "/usr/bin/site_perl/gcc-ar-16"
+      - "/usr/bin/vendor_perl/gcc-ar-16"
+      - "/usr/bin/core_perl/gcc-ar-16"
+      - "/usr/bin/gcc-ar16"
+      - "/tmp/cmake_env/bin/gcc-ar16"
+      - "/home/arthur/.opencode/bin/gcc-ar16"
+      - "/usr/local/bin/gcc-ar16"
+      - "/usr/bin/site_perl/gcc-ar16"
+      - "/usr/bin/vendor_perl/gcc-ar16"
+      - "/usr/bin/core_perl/gcc-ar16"
+    found: "/usr/bin/gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/cmake_env/bin"
+        - "/home/arthur/.opencode/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-16.1"
+      - "gcc-ranlib-16"
+      - "gcc-ranlib16"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/tmp/cmake_env/bin/"
+      - "/home/arthur/.opencode/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-16.1"
+      - "/tmp/cmake_env/bin/gcc-ranlib-16.1"
+      - "/home/arthur/.opencode/bin/gcc-ranlib-16.1"
+      - "/usr/local/bin/gcc-ranlib-16.1"
+      - "/usr/bin/site_perl/gcc-ranlib-16.1"
+      - "/usr/bin/vendor_perl/gcc-ranlib-16.1"
+      - "/usr/bin/core_perl/gcc-ranlib-16.1"
+      - "/usr/bin/gcc-ranlib-16"
+      - "/tmp/cmake_env/bin/gcc-ranlib-16"
+      - "/home/arthur/.opencode/bin/gcc-ranlib-16"
+      - "/usr/local/bin/gcc-ranlib-16"
+      - "/usr/bin/site_perl/gcc-ranlib-16"
+      - "/usr/bin/vendor_perl/gcc-ranlib-16"
+      - "/usr/bin/core_perl/gcc-ranlib-16"
+      - "/usr/bin/gcc-ranlib16"
+      - "/tmp/cmake_env/bin/gcc-ranlib16"
+      - "/home/arthur/.opencode/bin/gcc-ranlib16"
+      - "/usr/local/bin/gcc-ranlib16"
+      - "/usr/bin/site_perl/gcc-ranlib16"
+      - "/usr/bin/vendor_perl/gcc-ranlib16"
+      - "/usr/bin/core_perl/gcc-ranlib16"
+    found: "/usr/bin/gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/cmake_env/bin"
+        - "/home/arthur/.opencode/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-6R5HF4"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-6R5HF4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-6R5HF4'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ae27a/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ae27a.dir/build.make CMakeFiles/cmTC_ae27a.dir/build
+        make[1]: Entering directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-6R5HF4'
+        Building CXX object CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.o -c /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/CachyOS/CachyOS-PKGBUILDS/issues --with-build-config=bootstrap-lto --with-gcc-major-version-only --with-linker-hash-style=gnu --with-system-zlib --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-fixincludes --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.1.1 20260625 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ae27a.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ae27a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccMHFchB.s
+        GNU C++20 (GCC) version 16.1.1 20260625 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 16.1.1 20260625, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.28-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/16/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 27172de8836ea6b303b0014313024f2d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ae27a.dir/'
+         as -v --64 -o CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccMHFchB.s
+        GNU assembler version 2.46.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46.1
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_ae27a
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae27a.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/CachyOS/CachyOS-PKGBUILDS/issues --with-build-config=bootstrap-lto --with-gcc-major-version-only --with-linker-hash-style=gnu --with-system-zlib --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-fixincludes --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.1.1 20260625 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ae27a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ae27a.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKQMAeE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ae27a /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        collect2 version 16.1.1 20260625
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKQMAeE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ae27a /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        GNU ld (GNU Binutils) 2.46.1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ae27a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ae27a.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ae27a
+        make[1]: Leaving directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-6R5HF4'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/16/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16] ==> [/usr/include/c++/16]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu] ==> [/usr/include/c++/16/x86_64-pc-linux-gnu]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward] ==> [/usr/include/c++/16/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/16/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/16;/usr/include/c++/16/x86_64-pc-linux-gnu;/usr/include/c++/16/backward;/usr/lib/gcc/x86_64-pc-linux-gnu/16/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-6R5HF4']
+        ignore line: []
+        ignore line: [Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ae27a/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_ae27a.dir/build.make CMakeFiles/cmTC_ae27a.dir/build]
+        ignore line: [make[1]: Entering directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-6R5HF4']
+        ignore line: [Building CXX object CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.o -c /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/CachyOS/CachyOS-PKGBUILDS/issues --with-build-config=bootstrap-lto --with-gcc-major-version-only --with-linker-hash-style=gnu --with-system-zlib --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-fixincludes --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.1.1 20260625 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ae27a.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ae27a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccMHFchB.s]
+        ignore line: [GNU C++20 (GCC) version 16.1.1 20260625 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 16.1.1 20260625  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.28-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/16/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 27172de8836ea6b303b0014313024f2d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ae27a.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccMHFchB.s]
+        ignore line: [GNU assembler version 2.46.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46.1]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_ae27a]
+        ignore line: [/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae27a.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/CachyOS/CachyOS-PKGBUILDS/issues --with-build-config=bootstrap-lto --with-gcc-major-version-only --with-linker-hash-style=gnu --with-system-zlib --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-fixincludes --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.1.1 20260625 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ae27a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ae27a.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKQMAeE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ae27a /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccKQMAeE.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_ae27a] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/16] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-latomic_asneeded] ==> lib [atomic_asneeded]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        ignore line: [collect2 version 16.1.1 20260625]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKQMAeE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ae27a /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKQMAeE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ae27a /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker architecture flags [-m;elf]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKQMAeE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ae27a /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ae27a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld -m;elf
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/16]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../..] ==> [/usr/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;atomic_asneeded;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o;/usr/lib/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/16;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.46.1
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/FindGit.cmake:111 (find_program)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/FetchContent.cmake:1889 (find_package)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/FetchContent.cmake:1622 (__FetchContent_populateSubbuild)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/FetchContent.cmake:2160:EVAL:2 (__FetchContent_doPopulation)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/FetchContent.cmake:2160 (cmake_language)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/FetchContent.cmake:2401 (__FetchContent_Populate)"
+      - "CMakeLists.txt:16 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git"
+    candidate_directories:
+      - "/tmp/cmake_env/bin/"
+      - "/home/arthur/.opencode/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/sbin/"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/tmp/cmake_env/bin/git"
+      - "/home/arthur/.opencode/bin/git"
+      - "/usr/local/bin/git"
+    found: "/usr/bin/git"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/cmake_env/bin"
+        - "/home/arthur/.opencode/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:80 (find_program)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:90 (should_enable_assembly_tests)"
+    mode: "program"
+    variable: "LLVM_FILECHECK_EXE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "FileCheck"
+    candidate_directories:
+      - "/tmp/cmake_env/bin/"
+      - "/home/arthur/.opencode/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/sbin/"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/tmp/cmake_env/bin/FileCheck"
+      - "/home/arthur/.opencode/bin/FileCheck"
+      - "/usr/local/bin/FileCheck"
+    found: "/usr/bin/FileCheck"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/cmake_env/bin"
+        - "/home/arthur/.opencode/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:125 (check_library_exists)"
+    checks:
+      - "Looking for shm_open in rt"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-0lBIdM"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-0lBIdM"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_LIB_RT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-0lBIdM'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ba210/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ba210.dir/build.make CMakeFiles/cmTC_ba210.dir/build
+        make[1]: se entra en el directorio '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-0lBIdM'
+        Building CXX object CMakeFiles/cmTC_ba210.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=shm_open -std=gnu++17 -o CMakeFiles/cmTC_ba210.dir/CheckFunctionExists.cxx.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-0lBIdM/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_ba210
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba210.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_ba210.dir/CheckFunctionExists.cxx.o -o cmTC_ba210  -lrt
+        make[1]: se sale del directorio '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-0lBIdM'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:174 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WALL"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-JltZWw"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-JltZWw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WALL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-JltZWw'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f7a67/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f7a67.dir/build.make CMakeFiles/cmTC_f7a67.dir/build
+        make[1]: Entering directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-JltZWw'
+        Building CXX object CMakeFiles/cmTC_f7a67.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -Wall -std=c++11   -Wall -o CMakeFiles/cmTC_f7a67.dir/src.cxx.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-JltZWw/src.cxx
+        Linking CXX executable cmTC_f7a67
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7a67.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall CMakeFiles/cmTC_f7a67.dir/src.cxx.o -o cmTC_f7a67
+        make[1]: Leaving directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-JltZWw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:175 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WEXTRA"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-seBEDl"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-seBEDl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WEXTRA"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-seBEDl'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d03bc/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d03bc.dir/build.make CMakeFiles/cmTC_d03bc.dir/build
+        make[1]: Entering directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-seBEDl'
+        Building CXX object CMakeFiles/cmTC_d03bc.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -Wall  -Wextra -std=c++11   -Wextra -o CMakeFiles/cmTC_d03bc.dir/src.cxx.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-seBEDl/src.cxx
+        Linking CXX executable cmTC_d03bc
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d03bc.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra CMakeFiles/cmTC_d03bc.dir/src.cxx.o -o cmTC_d03bc
+        make[1]: Leaving directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-seBEDl'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:176 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHADOW"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-R1ypjJ"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-R1ypjJ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHADOW"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-R1ypjJ'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_02138/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_02138.dir/build.make CMakeFiles/cmTC_02138.dir/build
+        make[1]: Entering directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-R1ypjJ'
+        Building CXX object CMakeFiles/cmTC_02138.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -Wall  -Wextra  -Wshadow -std=c++11   -Wshadow -o CMakeFiles/cmTC_02138.dir/src.cxx.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-R1ypjJ/src.cxx
+        Linking CXX executable cmTC_02138
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02138.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow CMakeFiles/cmTC_02138.dir/src.cxx.o -o cmTC_02138
+        make[1]: Leaving directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-R1ypjJ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:177 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-jMty6x"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-jMty6x"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WFLOAT_EQUAL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-jMty6x'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3c788/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_3c788.dir/build.make CMakeFiles/cmTC_3c788.dir/build
+        make[1]: Entering directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-jMty6x'
+        Building CXX object CMakeFiles/cmTC_3c788.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wall  -Wextra  -Wshadow  -Wfloat-equal -std=c++11   -Wfloat-equal -o CMakeFiles/cmTC_3c788.dir/src.cxx.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-jMty6x/src.cxx
+        Linking CXX executable cmTC_3c788
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c788.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal CMakeFiles/cmTC_3c788.dir/src.cxx.o -o cmTC_3c788
+        make[1]: Leaving directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-jMty6x'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:178 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-tin2hR"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-tin2hR"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WOLD_STYLE_CAST"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-tin2hR'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c622d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c622d.dir/build.make CMakeFiles/cmTC_c622d.dir/build
+        make[1]: Entering directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-tin2hR'
+        Building CXX object CMakeFiles/cmTC_c622d.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WOLD_STYLE_CAST  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -std=c++11   -Wold-style-cast -o CMakeFiles/cmTC_c622d.dir/src.cxx.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-tin2hR/src.cxx
+        Linking CXX executable cmTC_c622d
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c622d.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast CMakeFiles/cmTC_c622d.dir/src.cxx.o -o cmTC_c622d
+        make[1]: Leaving directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-tin2hR'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:180 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WERROR"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-MdHiVM"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-MdHiVM"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WERROR"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-MdHiVM'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8078c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8078c.dir/build.make CMakeFiles/cmTC_8078c.dir/build
+        make[1]: Entering directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-MdHiVM'
+        Building CXX object CMakeFiles/cmTC_8078c.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror -std=c++11   -Werror -o CMakeFiles/cmTC_8078c.dir/src.cxx.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-MdHiVM/src.cxx
+        Linking CXX executable cmTC_8078c
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8078c.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror CMakeFiles/cmTC_8078c.dir/src.cxx.o -o cmTC_8078c
+        make[1]: Leaving directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-MdHiVM'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:184 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-3h9LA6"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-3h9LA6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-3h9LA6'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_90ff9/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_90ff9.dir/build.make CMakeFiles/cmTC_90ff9.dir/build
+        make[1]: Entering directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-3h9LA6'
+        Building CXX object CMakeFiles/cmTC_90ff9.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override -std=c++11   -Wsuggest-override -o CMakeFiles/cmTC_90ff9.dir/src.cxx.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-3h9LA6/src.cxx
+        Linking CXX executable cmTC_90ff9
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90ff9.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override CMakeFiles/cmTC_90ff9.dir/src.cxx.o -o cmTC_90ff9
+        make[1]: Leaving directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-3h9LA6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:186 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-Z3XEcA"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-Z3XEcA"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-Z3XEcA'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f1baa/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f1baa.dir/build.make CMakeFiles/cmTC_f1baa.dir/build
+        make[1]: Entering directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-Z3XEcA'
+        Building CXX object CMakeFiles/cmTC_f1baa.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic -std=c++11   -pedantic -o CMakeFiles/cmTC_f1baa.dir/src.cxx.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-Z3XEcA/src.cxx
+        Linking CXX executable cmTC_f1baa
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1baa.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic CMakeFiles/cmTC_f1baa.dir/src.cxx.o -o cmTC_f1baa
+        make[1]: Leaving directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-Z3XEcA'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:187 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-o2qzQx"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-o2qzQx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-o2qzQx'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3697b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_3697b.dir/build.make CMakeFiles/cmTC_3697b.dir/build
+        make[1]: Entering directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-o2qzQx'
+        Building CXX object CMakeFiles/cmTC_3697b.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -std=c++11   -pedantic-errors -o CMakeFiles/cmTC_3697b.dir/src.cxx.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-o2qzQx/src.cxx
+        Linking CXX executable cmTC_3697b
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3697b.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors CMakeFiles/cmTC_3697b.dir/src.cxx.o -o cmTC_3697b
+        make[1]: Leaving directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-o2qzQx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:188 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-uBoHgj"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-uBoHgj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-uBoHgj'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4ec90/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4ec90.dir/build.make CMakeFiles/cmTC_4ec90.dir/build
+        make[1]: Entering directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-uBoHgj'
+        Building CXX object CMakeFiles/cmTC_4ec90.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=c++11   -Wshorten-64-to-32 -o CMakeFiles/cmTC_4ec90.dir/src.cxx.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-uBoHgj/src.cxx
+        c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+        c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+        make[1]: *** [CMakeFiles/cmTC_4ec90.dir/build.make:81: CMakeFiles/cmTC_4ec90.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-uBoHgj'
+        make: *** [Makefile:134: cmTC_4ec90/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:189 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-ttjK1Y"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-ttjK1Y"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_FSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-ttjK1Y'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_86599/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_86599.dir/build.make CMakeFiles/cmTC_86599.dir/build
+        make[1]: Entering directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-ttjK1Y'
+        Building CXX object CMakeFiles/cmTC_86599.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -std=c++11   -fstrict-aliasing -o CMakeFiles/cmTC_86599.dir/src.cxx.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-ttjK1Y/src.cxx
+        Linking CXX executable cmTC_86599
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86599.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing CMakeFiles/cmTC_86599.dir/src.cxx.o -o cmTC_86599
+        make[1]: Leaving directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-ttjK1Y'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:192 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-joJ8jM"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-joJ8jM"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-joJ8jM'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_57db0/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_57db0.dir/build.make CMakeFiles/cmTC_57db0.dir/build
+        make[1]: Entering directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-joJ8jM'
+        Building CXX object CMakeFiles/cmTC_57db0.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -std=c++11   -Wno-deprecated-declarations -o CMakeFiles/cmTC_57db0.dir/src.cxx.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-joJ8jM/src.cxx
+        Linking CXX executable cmTC_57db0
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57db0.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations CMakeFiles/cmTC_57db0.dir/src.cxx.o -o cmTC_57db0
+        make[1]: Leaving directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-joJ8jM'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:202 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-HINTzl"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-HINTzl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-HINTzl'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d6693/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d6693.dir/build.make CMakeFiles/cmTC_d6693.dir/build
+        make[1]: Entering directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-HINTzl'
+        Building CXX object CMakeFiles/cmTC_d6693.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -std=c++11   -Wno-deprecated -o CMakeFiles/cmTC_d6693.dir/src.cxx.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-HINTzl/src.cxx
+        Linking CXX executable cmTC_d6693
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6693.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated CMakeFiles/cmTC_d6693.dir/src.cxx.o -o cmTC_d6693
+        make[1]: Leaving directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-HINTzl'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:210 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-UEh33Q"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-UEh33Q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-UEh33Q'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0e0f8/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_0e0f8.dir/build.make CMakeFiles/cmTC_0e0f8.dir/build
+        make[1]: Entering directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-UEh33Q'
+        Building CXX object CMakeFiles/cmTC_0e0f8.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -std=c++11   -Wstrict-aliasing -o CMakeFiles/cmTC_0e0f8.dir/src.cxx.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-UEh33Q/src.cxx
+        Linking CXX executable cmTC_0e0f8
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e0f8.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing CMakeFiles/cmTC_0e0f8.dir/src.cxx.o -o cmTC_0e0f8
+        make[1]: Leaving directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-UEh33Q'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:215 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WD654"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-YjTOFu"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-YjTOFu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WD654"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-YjTOFu'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3581a/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_3581a.dir/build.make CMakeFiles/cmTC_3581a.dir/build
+        make[1]: Entering directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-YjTOFu'
+        Building CXX object CMakeFiles/cmTC_3581a.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -wd654 -std=c++11   -wd654 -o CMakeFiles/cmTC_3581a.dir/src.cxx.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-YjTOFu/src.cxx
+        c++: error: unrecognized command-line option '-wd654'
+        c++: error: unrecognized command-line option '-wd654'
+        make[1]: *** [CMakeFiles/cmTC_3581a.dir/build.make:81: CMakeFiles/cmTC_3581a.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-YjTOFu'
+        make: *** [Makefile:134: cmTC_3581a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:216 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-ShCxH3"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-ShCxH3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WTHREAD_SAFETY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-ShCxH3'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_616c6/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_616c6.dir/build.make CMakeFiles/cmTC_616c6.dir/build
+        make[1]: Entering directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-ShCxH3'
+        Building CXX object CMakeFiles/cmTC_616c6.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -std=c++11   -Wthread-safety -o CMakeFiles/cmTC_616c6.dir/src.cxx.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-ShCxH3/src.cxx
+        c++: error: unrecognized command-line option '-Wthread-safety'
+        c++: error: unrecognized command-line option '-Wthread-safety'
+        make[1]: *** [CMakeFiles/cmTC_616c6.dir/build.make:81: CMakeFiles/cmTC_616c6.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-ShCxH3'
+        make: *** [Makefile:134: cmTC_616c6/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:267 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_COVERAGE"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-KoeSH1"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-KoeSH1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_COVERAGE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-KoeSH1'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9cfcb/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_9cfcb.dir/build.make CMakeFiles/cmTC_9cfcb.dir/build
+        make[1]: Entering directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-KoeSH1'
+        Building CXX object CMakeFiles/cmTC_9cfcb.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage -std=c++11   --coverage -o CMakeFiles/cmTC_9cfcb.dir/src.cxx.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-KoeSH1/src.cxx
+        Linking CXX executable cmTC_9cfcb
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cfcb.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage CMakeFiles/cmTC_9cfcb.dir/src.cxx.o -o cmTC_9cfcb
+        make[1]: Leaving directory '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-KoeSH1'
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:297 (cxx_feature_check)"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7345b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7345b.dir/build.make CMakeFiles/cmTC_7345b.dir/build
+        make[1]: se entra en el directorio '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_7345b.dir/std_regex.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_7345b.dir/std_regex.cpp.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/std_regex.cpp
+        Linking CXX executable cmTC_7345b
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7345b.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_7345b.dir/std_regex.cpp.o -o cmTC_7345b
+        make[1]: se sale del directorio '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:298 (cxx_feature_check)"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dd16b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_dd16b.dir/build.make CMakeFiles/cmTC_dd16b.dir/build
+        make[1]: se entra en el directorio '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_dd16b.dir/gnu_posix_regex.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_dd16b.dir/gnu_posix_regex.cpp.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/gnu_posix_regex.cpp
+        /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/gnu_posix_regex.cpp:1:10: fatal error: gnuregex.h: No existe el fichero o el directorio
+            1 | #include <gnuregex.h>
+              |          ^~~~~~~~~~~~
+        compilation terminated.
+        make[1]: *** [CMakeFiles/cmTC_dd16b.dir/build.make:81: CMakeFiles/cmTC_dd16b.dir/gnu_posix_regex.cpp.o] Error 1
+        make[1]: se sale del directorio '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:134: cmTC_dd16b/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_GNU_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:299 (cxx_feature_check)"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4a008/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4a008.dir/build.make CMakeFiles/cmTC_4a008.dir/build
+        make[1]: se entra en el directorio '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_4a008.dir/posix_regex.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_4a008.dir/posix_regex.cpp.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/posix_regex.cpp
+        Linking CXX executable cmTC_4a008
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a008.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_4a008.dir/posix_regex.cpp.o -o cmTC_4a008
+        make[1]: se sale del directorio '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:308 (cxx_feature_check)"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_543c8/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_543c8.dir/build.make CMakeFiles/cmTC_543c8.dir/build
+        make[1]: se entra en el directorio '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_543c8.dir/steady_clock.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_543c8.dir/steady_clock.cpp.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/steady_clock.cpp
+        Linking CXX executable cmTC_543c8
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_543c8.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_543c8.dir/steady_clock.cpp.o -o cmTC_543c8
+        make[1]: se sale del directorio '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
+      - "/tmp/cmake_env/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:311 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-de2c9p"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-de2c9p"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-de2c9p'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_da245/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_da245.dir/build.make CMakeFiles/cmTC_da245.dir/build
+        make[1]: se entra en el directorio '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-de2c9p'
+        Building CXX object CMakeFiles/cmTC_da245.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_da245.dir/src.cxx.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-de2c9p/src.cxx
+        Linking CXX executable cmTC_da245
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da245.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_da245.dir/src.cxx.o -o cmTC_da245
+        make[1]: se sale del directorio '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeScratch/TryCompile-de2c9p'
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:312 (cxx_feature_check)"
+    directories:
+      source: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp"
+      binary: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/Modules;/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_PTHREAD_AFFINITY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ca307/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ca307.dir/build.make CMakeFiles/cmTC_ca307.dir/build
+        make[1]: se entra en el directorio '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_ca307.dir/pthread_affinity.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_ca307.dir/pthread_affinity.cpp.o -c /home/arthur/Documentos/aede_proyect/proyecto_sorting/build/_deps/googlebenchmark-src/cmake/pthread_affinity.cpp
+        Linking CXX executable cmTC_ca307
+        /tmp/cmake_env/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca307.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_ca307.dir/pthread_affinity.cpp.o -o cmTC_ca307
+        make[1]: se sale del directorio '/home/arthur/Documentos/aede_proyect/proyecto_sorting/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_PTHREAD_AFFINITY"
+      cached: true
+      stdout: |
+      exitCode: 0
+...
